@@ -21,9 +21,9 @@ const map = L.map('map', {
 })
 
 // Base map tiles
-L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png?{foo}', {
-  foo: 'bar',
-  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+L.tileLayer('https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}.png?lang=en', {
+  maxZoom: 19,
+  attribution: '&copy; OpenStreetMap contributors, Wikimedia Maps'
 }).addTo(map);
 
 for (const file of index) {

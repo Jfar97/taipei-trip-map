@@ -1,0 +1,14 @@
+{
+    "type": "Feature",
+    "properties": {
+        "name": "Pokemon Center Taipei",
+        "address": "110202, Taiwan, Taipei City, Xinyi District, Songshou Rd, 110號 11號 新光三越台北信義新天地A11 3F",
+        "description": "Nerdy pokemon store. Love you baby <3"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+           25.036610517017102, 121.56728166715509
+        ]
+    }
+}

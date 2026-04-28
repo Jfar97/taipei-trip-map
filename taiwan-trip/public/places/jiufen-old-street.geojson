@@ -1,0 +1,14 @@
+{
+    "type": "Feature",
+    "properties": {
+        "name": "Jiufen Old Street",
+        "address": "Jishan St, Ruifang District, New Taipei City, Taiwan 224",
+        "description": "Bustling district known for its narrow streets, food stalls & sweeping views of the mountains & sea."
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            25.113053749538196, 121.84484532035395
+        ]
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "type": "Feature",
+    "properties": {
+        "name": "Kua Kua",
+        "address": "No. 280, Zhongzheng Rd, Yonghe District, New Taipei City, Taiwan 234",
+        "description": "Supposedly a local card shop is here. Definitely not a priority"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            24.999022246984598, 121.51706003831862
+        ]
+    }
+}

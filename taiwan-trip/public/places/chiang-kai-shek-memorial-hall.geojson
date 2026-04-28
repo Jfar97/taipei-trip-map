@@ -1,0 +1,14 @@
+{
+    "type": "Feature",
+    "properties": {
+        "name": "Chiang Kai-shek Memorial Hall",
+        "address": "Zhongzheng District, Taipei City, Taiwan 100",
+        "description": "Celebrated memorial hall with history exhibits surrounded by a large park with fish ponds & gardens."
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            25.036244805315455, 121.52016171834995
+        ]
+    }
+}

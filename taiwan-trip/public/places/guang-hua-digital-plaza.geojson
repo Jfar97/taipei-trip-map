@@ -1,0 +1,14 @@
+{
+    "type": "Feature",
+    "properties": {
+        "name": "Guang Hua Digital Plaza",
+        "address": "No. 8號, Section 3, Civic Blvd, Zhongzheng District, Taipei City, Taiwan 100",
+        "description": "6-story mall selling all things electronic, including mobiles, computers, cameras, games & more."
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            25.045422268903362, 121.53204119599094
+        ]
+    }
+}

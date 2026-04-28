@@ -1,0 +1,14 @@
+{
+    "type": "Feature",
+    "properties": {
+        "name": "Taipei City Mall",
+        "address": "100, Taiwan, Taipei City, Zhongzheng District, Section 1, Shimin Blvd, 100號B1",
+        "description": "Sprawling underground shopping center with stores arranged by category, plus parking & a food court."
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            25.049703173257473, 121.51363373831998
+        ]
+    }
+}

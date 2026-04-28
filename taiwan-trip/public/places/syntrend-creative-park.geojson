@@ -1,0 +1,14 @@
+{
+    "type": "Feature",
+    "properties": {
+        "name": "Syntrend Creative Park",
+        "address": "No. 2號, Section 3, Civic Blvd, Zhongzheng District, Taipei City, Taiwan 100013",
+        "description": "Sprawling mall with dozens of high-tech electronics shops, concept stores & a food court."
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            25.04567273812105, 121.53137234016842
+        ]
+    }
+}

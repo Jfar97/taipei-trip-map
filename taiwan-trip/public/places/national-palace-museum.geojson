@@ -1,0 +1,14 @@
+{
+    "type": "Feature",
+    "properties": {
+        "name": "National Palace Museum",
+        "address": "No. 221, Sec 2, Zhi Shan Rd, Shilin District, Taipei City, Taiwan 111",
+        "description": "Bustling museum featuring one of the largest collections of Chinese art & artifacts in the world."
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            25.102564261099523, 121.54854614008043
+        ]
+    }
+}

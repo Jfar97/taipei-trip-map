@@ -35,18 +35,25 @@ for (const file of index) {
       L.geoJSON(places, {
         coordsToLatLng: coords => L.latLng(coords[0], coords[1]),
         pointToLayer: (feature, latlng) => {
-          const marker = L.marker(latlng, {riseOnHover:true});
-          marker.bindPopup(`
-            <b>${feature.properties.name.toUpperCase()}</b>
-            <br>
-            <i>${feature.properties.address}</i>
-            <br>
-            <br>
-            ${feature.properties.description}
-          `);
-          return marker;
-        }
-      }).addTo(map);
+        const marker = L.circleMarker(latlng, {
+          radius: 12,
+          fillColor: '#ff0000',
+          color: '#000000',
+          weight: 3,
+          opacity: 1,
+          fillOpacity: 1.0
+        });
+
+        marker.bindPopup(`
+          <b>${feature.properties.name.toUpperCase()}</b>
+          <br>
+          <i>${feature.properties.address}</i>
+          <br>
+          <br>
+          ${feature.properties.description}
+        `);
+        return marker;
+      }}).addTo(map);
     })
     console.log(`Finished loading ${file}.`);
 };

@@ -1,0 +1,14 @@
+{
+    "type": "Feature",
+    "properties": {
+        "name": "Ximending Shopping District",
+        "address": "Wanhua District, Taipei City, Taiwan 108",
+        "description": "Known for its high-end fashion, Ximending hosts a bustling night market filled with hawkers."
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            25.04306166207939, 121.50772884118732
+        ]
+    }
+}

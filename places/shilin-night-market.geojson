@@ -1,0 +1,14 @@
+{
+    "type": "Feature",
+    "properties": {
+        "name": "Shilin Night Market",
+        "address": "No. 101, Jihe Rd, Shilin District, Taipei City, Taiwan 111",
+        "description": "Traditional night market with a large array of vendors selling street food, clothes & jewelry."
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            25.08874536788277, 121.52434301348677
+        ]
+    }
+}

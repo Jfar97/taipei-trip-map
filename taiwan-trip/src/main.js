@@ -28,7 +28,7 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png?{foo}', {
 
 for (const file of index) {
   console.log(`Loading ${file}...`);
-  const filePath = `/places/${file}`;
+  const filePath = `${import.meta.env.BASE_URL}places/${file}`;
   fetch(filePath)
     .then(response => response.json())
     .then((places) => {
